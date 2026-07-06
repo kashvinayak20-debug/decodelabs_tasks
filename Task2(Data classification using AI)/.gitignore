@@ -1,4 +1,4 @@
-# Python cache
+# Python bytecode
 __pycache__/
 *.py[cod]
 
@@ -6,13 +6,27 @@ __pycache__/
 venv/
 .venv/
 env/
+ENV/
 
-# VS Code
+# VS Code settings
 .vscode/
 
-# Jupyter
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# OS files
+# Python environment files
+.python-version
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Generated images
+*.png
+
+# macOS files
 .DS_Store
+
+# Windows thumbnail cache
 Thumbs.db
