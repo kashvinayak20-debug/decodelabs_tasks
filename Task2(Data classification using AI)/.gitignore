@@ -22,9 +22,6 @@ build/
 dist/
 *.egg-info/
 
-# Generated images
-*.png
-
 # macOS files
 .DS_Store
 
