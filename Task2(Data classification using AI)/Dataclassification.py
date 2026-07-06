@@ -24,7 +24,7 @@ X = iris.data    # shape: (150, 4) — feature matrix
 y = iris.target  # shape: (150,)  — class labels
 
 print(f"Dataset: {X.shape[0]} samples, {X.shape[1]} features")
-print(f"Classes: {list(iris.target_names)}")
+print("Classes:", ", ".join(iris.target_names))
 
 # ── STEP 2: TRAIN-TEST SPLIT ─────────────────────────────────
 # test_size=0.2   -> 20% test (30 samples), 80% train (120)
