@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# ------------------------------------------------------------------
+# Project 4 specific
+# ------------------------------------------------------------------
+
+# Pretrained model weights -- large, external, download separately
+# (see README.md / requirements.txt setup steps). Don't commit these.
+MobileNetSSD_deploy.prototxt
+MobileNetSSD_deploy.caffemodel
+
+# Generated outputs -- regenerated every time the scripts are run,
+# no need to track them in version control.
+processed_output.png
+detection_output.jpg
+face_detection_output.jpg

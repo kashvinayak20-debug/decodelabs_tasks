@@ -1,0 +1,30 @@
+# Project 4: Image & Text Recognition (OCR + Object Detection)
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+scikit-image>=0.22.0
+
+# ------------------------------------------------------------------
+# External (non-pip) requirements -- pip alone will NOT be enough
+# ------------------------------------------------------------------
+#
+# 1. Tesseract OCR binary (required by project4_ocr.py)
+#    pytesseract is only a Python *wrapper* -- the actual OCR engine
+#    is a separate system binary that must be installed yourself:
+#      Ubuntu/Debian : sudo apt-get install tesseract-ocr
+#      macOS (brew)  : brew install tesseract
+#      Windows       : https://github.com/UB-Mannheim/tesseract/wiki
+#
+# 2. MobileNet-SSD pretrained weights (required by
+#    project4_object_detection.py only) -- about 23MB, not
+#    distributed via pip. Download both files and place them in the
+#    same folder as the script:
+#      - MobileNetSSD_deploy.prototxt      (network architecture)
+#      - MobileNetSSD_deploy.caffemodel    (trained weights)
+#    Search "MobileNetSSD_deploy.caffemodel download" for a mirror
+#    (commonly hosted from the chuanqi305/MobileNet-SSD GitHub repo).
+#
+# project4_face_detection_demo.py needs NEITHER of the above -- it
+# uses a Haar Cascade bundled inside opencv-python and a sample photo
+# bundled inside scikit-image, so `pip install -r requirements.txt`
+# alone is enough to run it.
