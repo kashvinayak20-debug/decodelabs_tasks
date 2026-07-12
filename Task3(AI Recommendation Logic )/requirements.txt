@@ -1,0 +1,20 @@
+
+---
+
+## Requirements
+
+- Python 3.9+
+
+Uses only Python's standard libraries:
+
+- csv
+- math
+- collections
+
+No external packages are required.
+
+---
+
+## How to Run
+
+Clone the repository
